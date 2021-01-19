@@ -1,0 +1,29 @@
+{
+    "name": "redbastie/laravel-livewire-helpers",
+    "description": "A few useful helpers for Laravel Livewire.",
+    "homepage": "https://github.com/redbastie/laravel-livewire-helpers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Dion",
+            "email": "redbastie@icloud.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^8.0",
+        "livewire/livewire": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Redbastie\\LaravelLivewireHelpers\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Redbastie\\LaravelLivewireHelpers\\ServiceProvider"
+            ]
+        }
+    }
+}
