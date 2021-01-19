@@ -26,19 +26,3 @@ Validating data:
 Getting data (null safe, uses dot notation for nested arrays):
 
     $this->data('email');
-
-## CreatesStubs
-
-This trait is used by console commands to copy `.stub` files into their corresponding `base_path` directories.
-
-Creating files from stubs:
-
-    $this->createStubs(__DIR__ . '/../stubs');
-
-Using replacement values:
-
-    $this->createStubs(__DIR__ . '/../stubs', [
-        'hello' => 'world',
-    ]);
-
-This would replace all occurrences of `hello` with `world` in the stub filenames and contents.
